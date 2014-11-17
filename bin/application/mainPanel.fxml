@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="370.0" prefWidth="450.0000999999975" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.Controller">
+  <!-- TODO Add Nodes -->
+  <children>
+    <ListView fx:id="listView" layoutX="0.0" layoutY="26.0" prefHeight="172.0" prefWidth="200.0" />
+    <TextArea fx:id="response" editable="false" layoutX="0.0" layoutY="217.0" prefHeight="153.0" prefWidth="451.0" promptText="返ってきた結果が表示されます" wrapText="true" />
+    <Label layoutX="13.0" layoutY="203.0" prefWidth="82.00009999999747" text="▼RESPONSE" />
+    <Label layoutX="0.0" layoutY="2.0" text="URL: http://">
+      <font>
+        <Font name="System Bold" size="14.0" />
+      </font>
+    </Label>
+    <TextField fx:id="url" layoutX="82.0" layoutY="0.0" prefWidth="365.0" promptText="URLを入力してください" />
+    <Separator layoutX="95.0" layoutY="209.0" prefWidth="355.0" />
+    <Button layoutX="302.0" layoutY="176.0" mnemonicParsing="false" onMouseClicked="#sendQuery" text="SEND" />
+    <Button layoutX="399.0" layoutY="141.0" mnemonicParsing="false" onMouseClicked="#addQuery" text="Add" />
+    <Separator layoutX="204.0" layoutY="55.0" prefWidth="247.0" />
+    <FlowPane layoutX="207.0" layoutY="66.0" minHeight="14.0" minWidth="212.0" prefHeight="20.0" prefWidth="240.0">
+      <children>
+        <Label prefHeight="16.999908447265625" text="Key：" />
+        <TextField fx:id="key" prefWidth="212.0" promptText="キーを入力してください" />
+      </children>
+    </FlowPane>
+    <FlowPane layoutX="207.0" layoutY="26.0" prefHeight="20.0" prefWidth="240.0">
+      <children>
+        <Label text="JSON：">
+          <font>
+            <Font size="13.0" />
+          </font>
+        </Label>
+        <TextField fx:id="jsonName" prefWidth="201.0" promptText="JSON名を入力してください" />
+      </children>
+    </FlowPane>
+    <ChoiceBox fx:id="choice" layoutX="246.0" layoutY="132.0" value="int">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="int" />
+          <String fx:value="double" />
+          <String fx:value="char" />
+          <String fx:value="text" />
+        </FXCollections>
+      </items>
+    </ChoiceBox>
+    <FlowPane layoutX="207.0" layoutY="92.0" minHeight="14.0" minWidth="212.0" prefHeight="40.0" prefWidth="240.0">
+      <children>
+        <Label text="Value：" />
+        <TextArea fx:id="value" prefHeight="40.0" prefWidth="200.0" promptText="キーを入力してください" />
+      </children>
+    </FlowPane>
+  </children>
+</AnchorPane>

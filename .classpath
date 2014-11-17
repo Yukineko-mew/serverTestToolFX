@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/b1012213/Documents/GitHub/Library/json-lib-2.4-jdk15.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/b1012213/Documents/GitHub/Library/httpcomponents-client-4.3.6/lib/httpclient-4.3.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/b1012213/Documents/GitHub/Library/httpcomponents-core-4.3.3/lib/httpcore-4.3.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/b1012213/Documents/GitHub/Library/ezmorph-1.0.6.jar/ezmorph-1.0.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/b1012213/Documents/GitHub/Library/commons-logging-1.2/commons-logging-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/b1012213/Documents/GitHub/Library/commons-lang3-3.3.2/commons-lang3-3.3.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/b1012213/Documents/GitHub/Library/commons-beanutils-1.9.2/commons-beanutils-1.9.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/b1012213/Documents/GitHub/Library/apache-commons-lang.jar/apache-commons-lang.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/b1012213/Documents/GitHub/Library/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
